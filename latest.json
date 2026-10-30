@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "version": "2.7.1",
+  "releasedAt": "2026-10-31",
+  "pageUrl": "https://github.com/cheeeom/exam-workbench-release",
+  "critical": false,
+  "notes": [
+    "图标全量统一：安装包、exe、快捷方式、任务栏、标题栏同源一套矢量标",
+    "试卷打印：学生卷与教师卷分页正确，中文路径下 25/25 页无缺页"
+  ]
+}
