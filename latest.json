@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "version": "2.9.0",
+  "version": "2.9.1",
   "releasedAt": "2026-10-31",
   "pageUrl": "https://github.com/cheeeom/exam-workbench-release",
   "critical": false,
   "notes": [
-    "新功能：点「下载并安装」直接在应用里下载新版本，不用再跳网页",
-    "自动挑最快渠道：直连和镜像赛跑，谁快用谁，断了自动换",
-    "下载完自动校验完整性（SHA-256），校验通过才弹出安装向导",
-    "修复 AI 出题题型不符（v2.8.2 的修复也包含在内，没升级的这次一步到位）"
+    "关掉窗口不再退出程序：窗口收进右下角托盘，点一下图标就回来，备课时误点关闭不会丢进度",
+    "要彻底退出，右键右下角图标选「退出」，或菜单栏 文件 → 退出",
+    "托盘图标按屏幕缩放单独出图（100%/125%/150%/200%），高分屏下更清楚",
+    "托盘图标万一加载失败，会自动退回原来「点叉即退出」的行为，不会出现窗口消失、也找不到程序的情况"
   ],
   "download": {
-    "url": "https://github.com/cheeeom/exam-workbench-release/releases/download/v2.9.0/exam-workbench-setup-v2.9.0.exe",
-    "sha256": "c2d637fd204535118646e1a978944533047846a78d445bc8e9ec62e747c41258",
-    "size": 122787360,
+    "url": "https://github.com/cheeeom/exam-workbench-release/releases/download/v2.9.1/exam-workbench-setup-v2.9.1.exe",
+    "sha256": "0e447039e678a93b50c9a69287671b4149d12bd60aa6d8be1f8f387d5e69730b",
+    "size": 122856380,
     "mirrors": [
       "https://ghfast.top/{}",
       "https://gh-proxy.com/{}",
