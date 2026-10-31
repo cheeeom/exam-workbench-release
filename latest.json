@@ -1,23 +1,13 @@
 {
   "schemaVersion": 1,
-  "version": "2.9.2",
+  "version": "2.9.3",
   "releasedAt": "2026-10-31",
   "pageUrl": "https://github.com/cheeeom/exam-workbench-release",
   "critical": false,
   "notes": [
-    "试卷出好之后还能改：鼠标移到题目上，可「换一题」「上移 / 下移」「删除」，题号和分值会自动重排",
-    "换题只列同一题型的题，按同考点、同章、用得少、难度接近排序；换完这道题分值不变，卷面总分和大题小计自动重算",
-    "AI 出题选「简答题」不会再出成带材料清单的分析题；全都不合格时会自动重出一次",
-    "修复生成试卷时试卷名称输入框每按一个键就跳出去、必须重新点的问题（所有弹窗都受影响）"
-  ],
-  "download": {
-    "url": "https://github.com/cheeeom/exam-workbench-release/releases/download/v2.9.2/exam-workbench-setup-v2.9.2.exe",
-    "sha256": "af748822d3f33452c8333c108468b5c33ea5091d6cfb933aef8dd1ed80ea3f05",
-    "size": 122861120,
-    "mirrors": [
-      "https://ghfast.top/{}",
-      "https://gh-proxy.com/{}",
-      "https://ghproxy.net/{}"
-    ]
-  }
+    "启动动画不再单独弹一个小窗：窗口一出来就在演，播完整个界面才浮现",
+    "播完之后顶栏从上方落下、侧栏从左边滑进来、内容区从下方浮起，统计卡依次跟上",
+    "启动动画至少播满 1.2 秒才进界面，电脑再快也不会一闪而过",
+    "修复装机后第一次启动时动画在窗口出现前就播完、只能看到静止画面的问题"
+  ]
 }
