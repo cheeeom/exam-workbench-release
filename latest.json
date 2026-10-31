@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "version": "2.9.1",
+  "version": "2.9.2",
   "releasedAt": "2026-10-31",
   "pageUrl": "https://github.com/cheeeom/exam-workbench-release",
   "critical": false,
   "notes": [
-    "关掉窗口不再退出程序：窗口收进右下角托盘，点一下图标就回来，备课时误点关闭不会丢进度",
-    "要彻底退出，右键右下角图标选「退出」，或菜单栏 文件 → 退出",
-    "托盘图标按屏幕缩放单独出图（100%/125%/150%/200%），高分屏下更清楚",
-    "托盘图标万一加载失败，会自动退回原来「点叉即退出」的行为，不会出现窗口消失、也找不到程序的情况"
+    "试卷出好之后还能改：鼠标移到题目上，可「换一题」「上移 / 下移」「删除」，题号和分值会自动重排",
+    "换题只列同一题型的题，按同考点、同章、用得少、难度接近排序；换完这道题分值不变，卷面总分和大题小计自动重算",
+    "AI 出题选「简答题」不会再出成带材料清单的分析题；全都不合格时会自动重出一次",
+    "修复生成试卷时试卷名称输入框每按一个键就跳出去、必须重新点的问题（所有弹窗都受影响）"
   ],
   "download": {
-    "url": "https://github.com/cheeeom/exam-workbench-release/releases/download/v2.9.1/exam-workbench-setup-v2.9.1.exe",
-    "sha256": "0e447039e678a93b50c9a69287671b4149d12bd60aa6d8be1f8f387d5e69730b",
-    "size": 122856380,
+    "url": "https://github.com/cheeeom/exam-workbench-release/releases/download/v2.9.2/exam-workbench-setup-v2.9.2.exe",
+    "sha256": "af748822d3f33452c8333c108468b5c33ea5091d6cfb933aef8dd1ed80ea3f05",
+    "size": 122861120,
     "mirrors": [
       "https://ghfast.top/{}",
       "https://gh-proxy.com/{}",
