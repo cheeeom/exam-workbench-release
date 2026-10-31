@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "version": "2.8.1",
+  "version": "2.8.2",
   "releasedAt": "2026-10-31",
   "pageUrl": "https://github.com/cheeeom/exam-workbench-release",
   "critical": false,
   "notes": [
-    "修正图标：四角恢复透明，任务栏和桌面上不再有一圈白底",
-    "安装时保证在桌面创建快捷方式（升级重装也会重建）",
-    "安装路径没变：默认装在 C:\\Users\\你\\AppData\\Local\\Programs\\教师试卷工作台，向导里可以改"
+    "修复 AI 出题题型不符：点名要简答题不再冒出案例分析，要案例分析不再冒出单选",
+    "出题前提示词钉死题型格式（主观题禁止给 ABCD 选项）",
+    "模型仍不守规矩时按题型过滤；内容确是选择题的按内容归类并在审核界面打旗标"
   ]
 }
