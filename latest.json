@@ -1,13 +1,24 @@
 {
   "schemaVersion": 1,
-  "version": "2.9.3",
-  "releasedAt": "2026-10-31",
+  "version": "2.9.5",
+  "releasedAt": "2026-11-01",
   "pageUrl": "https://github.com/cheeeom/exam-workbench-release",
   "critical": false,
   "notes": [
-    "启动动画不再单独弹一个小窗：窗口一出来就在演，播完整个界面才浮现",
-    "播完之后顶栏从上方落下、侧栏从左边滑进来、内容区从下方浮起，统计卡依次跟上",
-    "启动动画至少播满 1.2 秒才进界面，电脑再快也不会一闪而过",
-    "修复装机后第一次启动时动画在窗口出现前就播完、只能看到静止画面的问题"
-  ]
+    "试卷卷头能自己定了：设置里填学校、学年学期、年级，出好的卷子自动印在左上角，右侧还带一条竖排密封线",
+    "题库里每道题会标出「用过几次、最近用在哪份卷」，组卷时一眼看出哪些题还没考过",
+    "题库支持多选：勾一批题，一次改章节、知识点、题型、难度、分值，不用一道一道点",
+    "试卷和题库都能导出成 Word（.docx），卷面排版、题号、分值、答案区都照着来，可以直接打印或发给同事改",
+    "设置里新增「备份与还原」：一键把整个题库打包成一个文件，换电脑、重装系统后一键恢复；还原前会自动留一份安全包，误还原也能救回"
+  ],
+  "download": {
+    "url": "https://github.com/cheeeom/exam-workbench-release/releases/download/v2.9.5/exam-workbench-setup-v2.9.5.exe",
+    "sha256": "250db70b9b23c89e337897fda22ebafdd0348ff4217d29f65e8f94a30294666e",
+    "size": 122879037,
+    "mirrors": [
+      "https://ghfast.top/{}",
+      "https://gh-proxy.com/{}",
+      "https://ghproxy.net/{}"
+    ]
+  }
 }
