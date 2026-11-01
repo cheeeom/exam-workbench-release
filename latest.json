@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "version": "2.9.6",
+  "version": "2.9.7",
   "releasedAt": "2026-11-01",
   "pageUrl": "https://github.com/cheeeom/exam-workbench-release",
   "critical": false,
   "notes": [
-    "思维导图能一路看到题目了：以前点开章节只到知识点，现在点一下知识点，它下面的题全部展开，带题干、题型色条和难度",
-    "导图可以全屏看，按住画布任意位置就能拖着走（在节点上按住拖也不会误点开章节），全屏里按住 Ctrl 滚轮缩放",
-    "四层各一种颜色：科目是实心色块、章节是蓝色描边、知识点是灰描边（展开后变蓝并带竖条）、题目是虚线框，一眼看出自己在第几层",
-    "章节结构改成全部收起。以前切到某门课会自动展开第一章，一打开就是半张图，看不出这门课一共几章；现在想看哪一章点哪一章",
-    "修好了「刚发新版却提示已是最新」的问题：检查更新现在绕过网络缓存，新版本发布后马上就能查到"
+    "思维导图最后一层改对了：以前点开知识点，右边铺的是题库里的题目，满眼「（ ）」「下列正确的是」；现在给的是这个知识点要掌握的重点，按句号、分号一条条拆开，一条一个序号",
+    "要点取自每个知识点自带的考纲说明，120 个知识点全都有，断网也能看，不用等 AI 总结",
+    "太长的要点自动折成最多三行，鼠标停一下能看全文；一个知识点超过 8 条时，第 8 条后面会注明「另有几条见知识点页」",
+    "要点是给人读的，点了不会跳走；想改要点还是点知识点右边那个小箭头进知识点页",
+    "导图最后一层的配色收轻了一点：淡底 + 左侧一道竖线，不再画第四个框，四级看下来不眼花"
   ],
   "download": {
-    "url": "https://github.com/cheeeom/exam-workbench-release/releases/download/v2.9.6/exam-workbench-setup-v2.9.6.exe",
-    "sha256": "e67a39dc11ccb8124adca565b8686fe679929d708ac4151e7ffb174911d4eab0",
-    "size": 122881559,
+    "url": "https://github.com/cheeeom/exam-workbench-release/releases/download/v2.9.7/exam-workbench-setup-v2.9.7.exe",
+    "sha256": "99f186b5ec13e98f895e0fde63d2f1ced80164f5d3ba84f43a15c5394d6ebb1c",
+    "size": 122881828,
     "mirrors": [
       "https://ghfast.top/{}",
       "https://gh-proxy.com/{}",
