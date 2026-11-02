@@ -1,21 +1,22 @@
 {
   "schemaVersion": 1,
-  "version": "2.10.7",
-  "releasedAt": "2026-11-02",
+  "version": "2.10.8",
+  "releasedAt": "2026-11-03",
   "pageUrl": "https://github.com/cheeeom/exam-workbench-release",
   "critical": false,
   "notes": [
-    "对账面板不再只报病：每条缺口旁边有「建知识点」和「不归本课」两个动作，补完当场从缺口里消失",
-    "「建知识点」名称按小点核心词预填（档案、文书的含义 → 档案、文书），描述直接放考纲原文不做润色——润色过就跟考纲对不上了",
-    "归属章节自动预填：能认出「模块一 文书拟写 ↔ 十三、文书拟写」这种对应关系，认不出就让你自己选，不瞎猜",
-    "「不归本课」用来销假债：保育员那科 11 条缺口里，保教法规、幼儿权利、托幼园所保教工作其实归《幼儿教育政策与法规》那本教材，永远补不了也不该补",
-    "标过的不再计入缺口，面板顶部单独报「另有 N 条已标不归本课」，点开能逐条撤销",
-    "改完立刻重算；关掉面板回到知识点列表，刚建的那条已经在里面（以前会显得没建上）"
+    "AI 出错时会说人话了：拆成「错在哪 + 该怎么办」两行（换模型 / 重填 Key / Base URL 要写到 /v1），不再甩一串 Error invoking remote method",
+    "「换一个模型再试」第一次变成真的：兜底模型和默认模型以前同名，去重后只剩一个；现在兜底是一个可编辑的列表，默认 agnes-3.0-flash",
+    "跑批能停：讲透 / 导入拆题 / 挂知识点 / 讲评稿统统一条运行条（已用时 · 进度 · 约剩 · 停止），停下来的已跑部分不丢",
+    "「重试」只重跑失败的那几道，不再整批重来白花钱、也不覆盖已经审过的结果",
+    "设置页新增「用量」卡：今天几次、烧了多少 token、哪个能力最费、最近跑了什么，可清零",
+    "三个 AI 面板统一了：出题改成三段式并说清「要 N 道出了 M 道」；讲透先列逐题清单可勾选、单道可重试；讲评稿骨架免费先出、草稿自动保存，关掉再打开还在",
+    "新增 AI 变式题：题库勾几道 → 按原题改兄弟题，题型与知识点沿用原题，连续重合 12 字以上本地判雷同并如实写出原因"
   ],
   "download": {
-    "url": "https://github.com/cheeeom/exam-workbench-release/releases/download/v2.10.7/exam-workbench-setup-v2.10.7.exe",
-    "sha256": "3518a425e3470fb4c871bfe02c14ae9766d27bafaeed8f2583d65adb0e39d806",
-    "size": 122954011,
+    "url": "https://github.com/cheeeom/exam-workbench-release/releases/download/v2.10.8/exam-workbench-setup-v2.10.8.exe",
+    "sha256": "f2644e9aa137e58d488d2adfaf572924b8c59088296e9543966a32a79c344ed4",
+    "size": 122964812,
     "mirrors": [
       "https://ghfast.top/{}",
       "https://gh-proxy.com/{}",
