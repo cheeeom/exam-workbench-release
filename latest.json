@@ -1,19 +1,21 @@
 {
   "schemaVersion": 1,
-  "version": "2.11.1",
-  "releasedAt": "2026-11-05",
+  "version": "2.11.2",
+  "releasedAt": "2026-11-06",
   "pageUrl": "https://github.com/cheeeom/exam-workbench-release",
   "critical": false,
   "notes": [
-    "修掉一个很别扭的毛病：录完题回到「概览」，本学科的题目数量还是旧数字——明明题已经进去了，侧栏那个「N 题」也跟着不动",
-    "原因是那两处数字和下面的「全库 N 题」不是同一份数据：大数字用的是启动时算好的快照，录题后没人去重算它，于是同一张卡片自己跟自己打架",
-    "现在录题、AI 出题、生成变式、解析深化、题库体检之后都会即时重算，回到概览就是准数；点右上角「刷新统计」也能救回来",
-    "这版题库 983 题（含刚手录的 4 道保育员单选题，已一并收进安装包，重装也不会丢）；卷子、设置、做题记录都不动；只修数字，不改任何操作方式"
+    "概览页新增「知识点热力」：底色深浅看考纲要求、左竖条深浅看挂题数，虚线边的就是还没题的考点，点 chip 直达知识点页",
+    "题库搜索升级：输题号回车直达那一题、支持按知识点和标签搜、按章节筛选",
+    "题库筛选行重排：题型、难度（折叠成下拉）、章节一行排齐，按钮样式统一好看",
+    "知识点导图：新增搜索（知识点名与考纲要点）、题量热力竖条、「全部展开」一次到顶",
+    "设置页「检查更新」下面能看到当前版本的更新概要（随版本同步）",
+    "整台应用手感统一：切页/弹窗/按压/指示器滑动一套节奏；题库 983 题，已有试卷、设置、做题记录都不动"
   ],
   "download": {
-    "url": "https://github.com/cheeeom/exam-workbench-release/releases/download/v2.11.1/exam-workbench-setup-v2.11.1.exe",
-    "sha256": "5f0abc426c88c2e3b72ed57967ea96cb36bba39afed9461ae9636ee6944d2745",
-    "size": 122912887,
+    "url": "https://github.com/cheeeom/exam-workbench-release/releases/download/v2.11.2/exam-workbench-setup-v2.11.2.exe",
+    "sha256": "ac5d09314a5c281028dd0fa8cafc6dbcce6fe82e4e2accd67594c42f40d6da56",
+    "size": 122917369,
     "mirrors": [
       "https://ghfast.top/{}",
       "https://gh-proxy.com/{}",
