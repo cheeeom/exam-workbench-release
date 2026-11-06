@@ -1,21 +1,20 @@
 {
   "schemaVersion": 1,
-  "version": "2.11.2",
+  "version": "2.11.3",
   "releasedAt": "2026-11-06",
   "pageUrl": "https://github.com/cheeeom/exam-workbench-release",
   "critical": false,
   "notes": [
-    "概览页新增「知识点热力」：底色深浅看考纲要求、左竖条深浅看挂题数，虚线边的就是还没题的考点，点 chip 直达知识点页",
-    "题库搜索升级：输题号回车直达那一题、支持按知识点和标签搜、按章节筛选",
-    "题库筛选行重排：题型、难度（折叠成下拉）、章节一行排齐，按钮样式统一好看",
-    "知识点导图：新增搜索（知识点名与考纲要点）、题量热力竖条、「全部展开」一次到顶",
-    "设置页「检查更新」下面能看到当前版本的更新概要（随版本同步）",
-    "整台应用手感统一：切页/弹窗/按压/指示器滑动一套节奏；题库 983 题，已有试卷、设置、做题记录都不动"
+    "概览统计卡改成「本学科 / 全库」写法：题目、知识点、课件资源三张卡一眼看出本科占比，右侧分母放大、颜色稍淡",
+    "课件资源卡原来显示的是全库总数，现在换成本学科真实数量；共享给别科的考纲不计入本科，与资源页数字对得上",
+    "三张卡下面的说明统一成「本学科 / 全库」，不再各说各话；学科卡保持原样",
+    "补齐四张统计卡的数字滚动动画：启动动画收完后统一从 0 滚一遍，分母也滚；开了减少动效就直接显示，切回概览不重滚",
+    "题库 983 题不变，已有试卷、设置、做题记录都不动"
   ],
   "download": {
-    "url": "https://github.com/cheeeom/exam-workbench-release/releases/download/v2.11.2/exam-workbench-setup-v2.11.2.exe",
-    "sha256": "ac5d09314a5c281028dd0fa8cafc6dbcce6fe82e4e2accd67594c42f40d6da56",
-    "size": 122917369,
+    "url": "https://github.com/cheeeom/exam-workbench-release/releases/download/v2.11.3/exam-workbench-setup-v2.11.3.exe",
+    "sha256": "9557e89341d1941bd62a14d8733268a49644b290caa03e88f595013e6ed5388d",
+    "size": 122917927,
     "mirrors": [
       "https://ghfast.top/{}",
       "https://gh-proxy.com/{}",
