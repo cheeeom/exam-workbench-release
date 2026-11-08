@@ -1,20 +1,22 @@
 {
   "schemaVersion": 1,
-  "version": "2.11.3",
-  "releasedAt": "2026-11-06",
+  "version": "2.12.0",
+  "releasedAt": "2026-11-09",
   "pageUrl": "https://github.com/cheeeom/exam-workbench-release",
   "critical": false,
   "notes": [
-    "概览统计卡改成「本学科 / 全库」写法：题目、知识点、课件资源三张卡一眼看出本科占比，右侧分母放大、颜色稍淡",
-    "课件资源卡原来显示的是全库总数，现在换成本学科真实数量；共享给别科的考纲不计入本科，与资源页数字对得上",
-    "三张卡下面的说明统一成「本学科 / 全库」，不再各说各话；学科卡保持原样",
-    "补齐四张统计卡的数字滚动动画：启动动画收完后统一从 0 滚一遍，分母也滚；开了减少动效就直接显示，切回概览不重滚",
+    "知识点编辑器升级：描述框加大并带字数统计；新增「要点小点」清单，一个知识点的小点逐条写、可上移下移",
+    "「从描述拆要点」一键把描述里的考纲原文拆成小点，改哪条存哪条",
+    "知识点导图第四层优先显示你写的小点；没有小点的照旧自动按句拆，老知识点零变化",
+    "复习讲义「考纲要求」按 ①②③ 逐条打印你列举的小点",
+    "考纲对账新增逐条证据：小点里写到的考纲原文直接判覆盖，缺口更准",
+    "知识点列表与详情标出小点数量；详情新增「考纲原文」区；搜索能搜到小点内容",
     "题库 983 题不变，已有试卷、设置、做题记录都不动"
   ],
   "download": {
-    "url": "https://github.com/cheeeom/exam-workbench-release/releases/download/v2.11.3/exam-workbench-setup-v2.11.3.exe",
-    "sha256": "9557e89341d1941bd62a14d8733268a49644b290caa03e88f595013e6ed5388d",
-    "size": 122917927,
+    "url": "https://github.com/cheeeom/exam-workbench-release/releases/download/v2.12.0/exam-workbench-setup-v2.12.0.exe",
+    "sha256": "cfb8e20f90e3691179f4ac19e91a3181353676b90db1ae81253a29af1b37270c",
+    "size": 122919494,
     "mirrors": [
       "https://ghfast.top/{}",
       "https://gh-proxy.com/{}",
