@@ -1,20 +1,21 @@
 {
   "schemaVersion": 1,
-  "version": "2.12.1",
-  "releasedAt": "2026-11-09",
+  "version": "2.12.2",
+  "releasedAt": "2026-11-15",
   "pageUrl": "https://github.com/cheeeom/exam-workbench-release",
-  "critical": true,
+  "critical": false,
   "notes": [
-    "修复：提炼知识点点「停下」没反应——现在立即掐断在途请求，不用再等模型超时（最长曾卡 3 分钟）",
-    "修复：提炼过程实时显示进度（读到第几节、已得几条草案），不再停在「第 0/1 份」看着像卡死",
-    "被「停下」取消的那一批会如实标注，已提炼出的草案保留，照常进入审核",
-    "说明：默认勾 3 份是先小批量试准头；审核步每条草案可「新增 / 合并到相似知识点 / 丢弃」，合并只追加不改写",
-    "题库 983 题不变，已有试卷、设置、做题记录都不动"
+    "改进：判断题组卷不再出现连续 5 个「正确」或连续 5 个「错误」——判分规律猜不动了（实测 200 张卷最坏 4 连，正误各占一半）",
+    "改进：多选题「全选」题从占四成压到一成五左右，蒙全选的命中率砍掉六成（题源没改一个字，改的是抽题时的配额）",
+    "改进：多选题不再扎堆在「ABC」「ABD」这几个答案组合上，同一份卷里重复组合受限",
+    "改进：多选题「选两项」的比例提上来了（这类题最容易做错、区分度最高）；某个学科题库里这类题实在太少时，组卷会明确提示「候选不足，建议补题」，不再给你一张看着达标其实没达标的卷子",
+    "复核：卷面「选项乱序」会把答案和选项内容一起搬（619 道题逐道验证过），不会出现「字母换了、内容没换」导致答案指错",
+    "题库 983 题不变；已有试卷、设置、做题记录都不动"
   ],
   "download": {
-    "url": "https://github.com/cheeeom/exam-workbench-release/releases/download/v2.12.1/exam-workbench-setup-v2.12.1.exe",
-    "sha256": "b369838e7b83afa60c2a4a93ad0cc480874ba03b7f5e0eccfa7f47719f2097e6",
-    "size": 122919797,
+    "url": "https://github.com/cheeeom/exam-workbench-release/releases/download/v2.12.2/exam-workbench-setup-v2.12.2.exe",
+    "sha256": "5eda67aecb90da79ea788faa2a4a291feee1e0f971cbb72d3a9cf439d2cb3227",
+    "size": 122922154,
     "mirrors": [
       "https://ghfast.top/{}",
       "https://gh-proxy.com/{}",
